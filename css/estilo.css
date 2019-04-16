@@ -5,5 +5,125 @@
 }
 
 body{
-	 overflow-x: hidden;
+	margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-family: "roboto";
+  background: url(../imagenes/icono.png);
+  color: black;
+
+}
+
+@font-face{
+	font-family: 'lobster';
+	src:url('../fuentes/lobster1.woff');
+}
+
+@font-face{
+	font-family: 'roboto';
+	src:url('../fuentes/roboto.woff');
+}
+
+
+.header {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  //color: #fff;
+ 
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 8rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+ width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 1;
+  opacity: .50;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.header-content{
+	z-index: 2;
+}
+
+.header-content h1{
+	//font-size: 40px;
+	margin-bottom: 0px;
+	font-family: 'lobster';
+}
+
+.header-content p{
+	font-size: 1.2rem;
+	display: block;
+	font-weight: bold;
+	padding-bottom: 2rem;
+	font-family: 'roboto';
+}
+
+ .linea1{
+	height: 1.5px;
+	background-color: black;
+	border-radius: 100%;
+}
+
+
+.navbar .navbar-nav li a{
+	color: black;
+	font-weight: bold;
+}
+
+
+
+/*-------estilos responsivos--------*/
+
+@media(min-width: 280px){
+
+}
+
+@media (min-width:480px ) {
+	
+}
+
+@media (min-width:768px ) {
+	
+}
+
+
+@media (min-width:1024px ) {
+	
+}
+
+
+@media (min-width:1280px ) {
+	
 }
