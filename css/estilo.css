@@ -84,7 +84,7 @@ body{
 }
 
 .header-content h1{
-	font-size: 50px;
+	//font-size: 50px;
 	margin-bottom: 0px;
 	font-family: 'lobster';
 }
@@ -107,7 +107,7 @@ body{
 .navbar .navbar-nav li a{
 	color: black;
 	font-weight: bold;
-	font-size: 18px;
+	//font-size: 18px;
 	
 }
 
@@ -142,8 +142,33 @@ body{
   }
 
 .header-content p{
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
+
+.navbar .navbar-nav li a{
+	font-size: 14px;
+	}
+
+.indice{
+	padding-right: 2px;
+}
+
+.credito{
+padding-right: 3px;
+}
+
+.logo{
+	width: 50%;
+	margin-left: 6.5rem;
+}
+
+.navbar .navbar-toggler{
+	margin-left: 10rem;
+}
+
+
+.header {
+  height: 250px;
 
 }
 
@@ -154,11 +179,44 @@ body{
     padding: 0rem 4rem 0 8rem;
   }
 
+.logo{
+	width: 40%;
+	margin-left: 10rem;
+}
+
+
+.navbar .navbar-toggler{
+	margin-left: 15rem;
+}
+
+.header {
+  height: 200px;
+
+}
+
 }
 
 @media (min-width:768px ) {
 
+.logo{
+	width: 30%;
+	margin-left: 0rem;
+}
 
+.navbar .navbar-toggler{
+	margin-left: 0rem;
+}
+.navbar .navbar-nav .nav-item{
+	background-color: rgba(107, 107, 107, 0.5);
+	color: black;
+	padding-left: 10px;
+
+	}
+
+.header {
+  height: 500px;
+
+}
 
 }
 
@@ -186,7 +244,33 @@ body{
 	}
 
 	.header-content p{
-	font-size: 1.3rem;}
+	font-size: 1.3rem;
+}
+
+.indice{
+	padding-left:  16px; 
+}
+
+.credito{
+	padding-left:  22px;
+}
+
+.navbar .navbar-nav li a{
+	font-size: 18px;	
+}
+
+.logo{
+	width: 25%;
+	margin-left: 0rem;
+}
+
+.header {
+  height: 600px;}
+
+ .header-content h1{
+ 	font-size: 50px;
+ }
+
 }
 
 
