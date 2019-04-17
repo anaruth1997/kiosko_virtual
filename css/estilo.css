@@ -10,10 +10,19 @@ body{
   line-height: 1.5;
   overflow-x: hidden;
   font-family: "roboto";
-  background: url(../imagenes/icono.png);
+  //background: url(../imagenes/icono.png);
   color: black;
 
 }
+
+.contenedor{
+	margin:auto;
+	
+	background:#FFFFFF;
+	width: 88%;
+	height: 1000px;
+}
+
 
 @font-face{
 	font-family: 'lobster';
@@ -34,11 +43,11 @@ body{
 
 
 .header {
-  height: 600px;
+  //height: 600px;
   display: flex;
   align-items: center;
   //color: #fff;
- 
+
 }
 
 .content {
@@ -47,6 +56,7 @@ body{
   padding-right: 1rem;*/
   margin: auto;
   text-align: center;
+
   
 }
 
@@ -122,6 +132,12 @@ body{
 /*-------estilos responsivos--------*/
 
 @media(min-width: 280px){
+
+body{
+	background: url(../imagenes/icono2.png);
+}
+
+
 	.navbar .navbar-nav {
 		margin-top: 5px;
 	}
@@ -169,7 +185,7 @@ padding-right: 3px;
 
 
 .header {
-  height: 250px;
+  height: 250px;}
 
 }
 
@@ -222,6 +238,12 @@ padding-right: 3px;
 
 
 @media (min-width:960px ) {
+
+body{
+	background: url(../imagenes/icono.png);
+}
+
+
 .content {
   max-width: 40rem;
   padding-left: 6rem;
@@ -265,7 +287,7 @@ padding-right: 3px;
 }
 
 .header {
-  height: 600px;}
+  height: 500px;}
 
  .header-content h1{
  	font-size: 50px;
