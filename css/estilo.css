@@ -25,6 +25,13 @@ body{
 	src:url('../fuentes/roboto.woff');
 }
 
+@font-face {
+    font-family: 'agan';
+    src: url('../fuentes/agane_65_bold_sign-webfont.woff');
+         
+
+}
+
 
 .header {
   height: 600px;
@@ -77,17 +84,17 @@ body{
 }
 
 .header-content h1{
-	//font-size: 40px;
+	font-size: 50px;
 	margin-bottom: 0px;
 	font-family: 'lobster';
 }
 
 .header-content p{
-	font-size: 1.2rem;
+	//font-size: 1.2rem;
 	display: block;
 	font-weight: bold;
 	padding-bottom: 2rem;
-	font-family: 'roboto';
+	font-family: 'agan';
 }
 
  .linea1{
@@ -134,7 +141,9 @@ body{
     padding: 0rem 3rem 0 3rem;
   }
 
-
+.header-content p{
+	font-size: 1.2rem;
+}
 
 }
 
@@ -175,6 +184,9 @@ body{
 		background-color: rgba(255,126,0, 0.55);
 		border-radius: 25px 0px 25px 0;
 	}
+
+	.header-content p{
+	font-size: 1.3rem;}
 }
 
 
