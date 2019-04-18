@@ -12,15 +12,16 @@ body{
   font-family: "roboto";
   //background: url(../imagenes/icono.png);
   color: black;
-
+	
 }
 
 .contenedor{
 	margin:auto;
-	
+	//padding-top: 200px;
 	background:#FFFFFF;
 	width: 88%;
-	height: 1000px;
+	height:2000px;
+	z-index: 4;
 }
 
 
@@ -47,6 +48,7 @@ body{
   display: flex;
   align-items: center;
   //color: #fff;
+
 
 }
 
@@ -91,7 +93,8 @@ body{
 }
 
 .header-content{
-	z-index: 2;
+	z-index: 3;
+
 }
 
 .header-content h1{
@@ -127,7 +130,40 @@ body{
 
 }
 
+.titulo{
+	text-align: center;
+	//margin-top: 80px;
+	font-family: 'agan';
+	letter-spacing: 5px;
+}
 
+.texto-normal{
+	font-weight: bold;
+	text-align: center;
+	font-family: 'roboto';
+}
+
+.imagen{
+	width: 100%;
+	transition:all .8s ease-in-out;
+}
+
+.marco{
+margin-bottom: 15px;
+overflow:hidden;
+
+}
+
+.marco:hover .imagen {
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+	transition:all .8s ease-in-out;
+}
+
+.imagenes{
+	margin-top: 20px;
+
+}
 
 /*-------estilos responsivos--------*/
 
@@ -188,6 +224,19 @@ padding-right: 3px;
 .header {
   height: 250px;}
 
+  .contenedor{
+  	padding-top: 200px;
+  }
+
+ .titulo{
+ 	margin-top: 80px;
+ 	font-size: 20px;
+ }
+
+  .texto-normal{
+ 	font-size: 11px;
+ }
+
 }
 
 @media (min-width:480px ) {
@@ -211,6 +260,19 @@ padding-right: 3px;
 
 }
 
+ .titulo{
+ 	margin-top: 60px;
+ 	font-size: 25px;
+ }
+
+ .texto-normal{
+ 	font-size: 15px;
+ }
+
+ .contenedor{
+  	padding-top: 240px;
+  }
+
 }
 
 @media (min-width:768px ) {
@@ -231,9 +293,24 @@ padding-right: 3px;
 	}
 
 .header {
-  height: 500px;
+  height: 400px;
 
 }
+
+ .titulo{
+ 	margin-top: 45px;
+ 	font-size: 30px;
+ }
+
+ .texto-normal{
+ 	font-size: 17px;
+ }
+
+ .contenedor{
+  	padding-top: 100px;
+  }
+
+
 
 }
 
@@ -289,16 +366,43 @@ body{
 }
 
 .header {
-  height: 500px;}
+  height: 450px;
+}
 
  .header-content h1{
  	font-size: 50px;
+ }
+
+ .contenedor{
+  	padding-top: 50px;
+  }
+
+ .titulo{
+ 	margin-top: 20px;
+ 	font-size: 35px;
+ }
+
+ .texto-normal{
+ 	font-size: 19px;
  }
 
 }
 
 
 @media (min-width:1024px ) {
+
+.contenedor{
+  	padding-top: 75px;
+  }
+
+ .titulo{
+ 	margin-top: 40px;
+ 	font-size: 40px;
+ }
+
+  .texto-normal{
+ 	font-size: 22px;
+ }
 
 }
 
