@@ -162,7 +162,26 @@ overflow:hidden;
 
 .imagenes{
 	margin-top: 20px;
+}
 
+.titulo-entradas{
+	text-decoration: none;
+	font-family: 'lobster';
+	text-align: center;
+}
+
+.seleccion{
+color: #D84B20;
+}
+
+.seleccion:hover{
+	color: #FF7E00;
+	text-decoration: underline;
+	transition:all .6s ease-in-out;
+}
+
+.sin-subrayado:hover{
+	text-decoration: none;
 }
 
 /*-------estilos responsivos--------*/
@@ -237,6 +256,10 @@ padding-right: 3px;
  	font-size: 11px;
  }
 
+ .titulo-entradas{
+ 	font-size: 18px;
+ }
+
 }
 
 @media (min-width:480px ) {
@@ -272,6 +295,11 @@ padding-right: 3px;
  .contenedor{
   	padding-top: 240px;
   }
+
+ .titulo-entradas{
+ 	font-size: 24px;
+ }
+
 
 }
 
@@ -310,6 +338,9 @@ padding-right: 3px;
   	padding-top: 100px;
   }
 
+ .titulo-entradas{
+ 	font-size: 28px;
+ }
 
 
 }
@@ -386,6 +417,10 @@ body{
  	font-size: 19px;
  }
 
+ .titulo-entradas{
+ 	font-size: 31px;
+ }
+
 }
 
 
@@ -402,6 +437,10 @@ body{
 
   .texto-normal{
  	font-size: 22px;
+ }
+
+ .titulo-entradas{
+ 	font-size: 35px;
  }
 
 }
