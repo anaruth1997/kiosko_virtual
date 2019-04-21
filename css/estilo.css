@@ -265,6 +265,7 @@ color: #D84B20;
 
 .menu ul{
 list-style: none;
+
 }
 
 .menu-item{
@@ -309,6 +310,7 @@ transition:all .6s ;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-weight: bold;
+	margin-top: 20px;
 }
 
 .img-texto{
@@ -317,6 +319,111 @@ transition:all .6s ;
 	box-shadow: 5px 0px 10px #939393;
 	height: 100px;
 }
+
+
+/*----------animacion-----------------*/
+.cuadro-texto{
+	height: 300px;
+}
+
+.animacion{
+	-moz-animation-duration: 140s;
+	-webkit-animation-duration: 140s;
+	animation-duration: 140s;
+  	-moz-animation-name: credito-film;
+  	-webkit-animation-name: credito-film;
+  	animation-name: credito-film;
+  	-moz-animation-direction: normal;
+  	-webkit-animation-direction: normal;
+  	animation-direction: normal;
+  	-moz-animation-iteration-count: infinite;
+  	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+  	-moz-animation-delay:4ms;
+  	-webkit-animation-delay:4ms;
+  	animation-delay:4ms;
+  	//height: 500px;
+  	//padding-top: 100px;
+}
+
+@keyframes credito-film{
+
+0%{margin-top: 0px;}
+5%{margin-top: 0px;}
+10%{margin-top: -50px;}
+15%{margin-top: -100px;}
+20%{margin-top: -150px;}
+25%{margin-top: -200px;}
+30%{margin-top: -250px;}
+35%{margin-top: -300px;}
+40%{margin-top: -350px;}
+45%{margin-top: -400px;}
+50%{margin-top: -450px;}
+55%{margin-top: -500px;}
+60%{margin-top: -550px;}
+65%{margin-top: -600px;}
+70%{margin-top: -650px;}
+75%{margin-top: -700px;}
+80%{margin-top: -750px;}
+85%{margin-top: -800px;}
+90%{margin-top: -850px;}
+95%{margin-top: -900px;}
+100%{margin-top: -950px;}
+}
+
+
+@-moz-keyframes credito-film{
+
+0%{margin-top: 0px;}
+5%{margin-top: 0px;}
+10%{margin-top: -50px;}
+15%{margin-top: -100px;}
+20%{margin-top: -150px;}
+25%{margin-top: -200px;}
+30%{margin-top: -250px;}
+35%{margin-top: -300px;}
+40%{margin-top: -350px;}
+45%{margin-top: -400px;}
+50%{margin-top: -450px;}
+55%{margin-top: -500px;}
+60%{margin-top: -550px;}
+65%{margin-top: -600px;}
+70%{margin-top: -650px;}
+75%{margin-top: -700px;}
+80%{margin-top: -750px;}
+85%{margin-top: -800px;}
+90%{margin-top: -850px;}
+95%{margin-top: -900px;}
+100%{margin-top: -950px;}
+}
+
+@-webkit-keyframes credito-film{
+
+0%{margin-top: 0px;}
+5%{margin-top: 0px;}
+10%{margin-top: -50px;}
+15%{margin-top: -100px;}
+20%{margin-top: -150px;}
+25%{margin-top: -200px;}
+30%{margin-top: -250px;}
+35%{margin-top: -300px;}
+40%{margin-top: -350px;}
+45%{margin-top: -400px;}
+50%{margin-top: -450px;}
+55%{margin-top: -500px;}
+60%{margin-top: -550px;}
+65%{margin-top: -600px;}
+70%{margin-top: -650px;}
+75%{margin-top: -700px;}
+80%{margin-top: -750px;}
+85%{margin-top: -800px;}
+90%{margin-top: -850px;}
+95%{margin-top: -900px;}
+100%{margin-top: -950px;}
+}
+
+
+
 
 
 /*-------estilos responsivos--------*/
