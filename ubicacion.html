@@ -11,6 +11,21 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/all.js"></script>
+
+	<link href="css/jquery.bsPhotoGallery-min.css" rel="stylesheet">
+    <script src="js/jquery.bsPhotoGallery-min.js"></script>
+ 
+ </script>
+    <script>
+      $(document).ready(function(){
+        $('ul.first').bsPhotoGallery({
+          "classes" : "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12",
+          "hasModal" : true,
+          "shortText" : false  
+        });
+      });
+    </script>
+
 	<link rel="icon" href="imagenes/icono.png">
 </head>
 <body>
@@ -80,9 +95,19 @@
 						Tuxtepec se ubica en la margen izquierda del Río Papaloapan (en el agua de las mariposas), en una especie de meandro o herradura de los muchos que forma el río a lo largo de su cauce. Es el arranque de una extensa planicie que resulta de la prolongación de la Sierra de Zongolica y la depresión de la Sierra de Juárez, para formar las extensas planicies de la faja costera conocida como región de Sotavento.<br><br>
 						Es el segundo municipio más importante de Oaxaca y se encuentra a 11 metros sobre el nivel del mar. <br><br>
 
-Limita al norte con el estado de Veracruz y al sur con la ciudad oaxaqueña de Loma Bonita.
+Limita al norte con el estado de Veracruz y al sur con la ciudad oaxaqueña de Loma Bonita.<br>
+<small><center>Puede dar clic sobre las imagenes para verlas completa</center></small>
 					</p></div>
-					<img class="img-texto" src="imagenes/mariposa2.jpg" alt="">
+					<ul class="row first">
+						<li>
+					<img src="imagenes/mariposa2.jpg" alt="Mariposa">
+					<p>Lancha Mariposa</p>
+				</li>
+					<li>
+					<img src="imagenes/pintura1.jpg" alt="Pintura">
+					<p>Pintura</p>
+				</li>
+				</ul>
 				</div>
 			</div>
 		</div>
