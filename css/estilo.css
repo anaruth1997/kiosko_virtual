@@ -246,6 +246,20 @@ color: #D84B20;
 	width: 90%;
 }
 
+
+.texto-largo{
+	font-size: 20px;
+	text-align: justify;
+	color: black;
+}
+
+/*.borde1{
+	border:3px solid #1605BD;
+	padding: 5px;
+	border-radius: 25px 25px 25px 25px;
+	//background-color: rgb(65,105,225,0.5);
+}*/
+
 /*-----menu extensible------*/
 
 
@@ -296,6 +310,13 @@ transition:all .6s ;
 	padding-bottom: 10px;
 	font-weight: bold;
 }
+
+.img-texto{
+	width: 100%;
+	margin-top: 10px;
+	box-shadow: 5px 0px 10px #939393;
+}
+
 
 /*-------estilos responsivos--------*/
 
