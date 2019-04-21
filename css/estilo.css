@@ -512,6 +512,10 @@ width: 100%;
 	font-size: 14px;
 }
 
+.flecha{
+	text-align: center;
+	padding-top: 10px;
+}
 
 }
 
@@ -619,6 +623,15 @@ border-radius: 0px 25px 25px 0px;
 width: 100%;
 }
 
+.texto-largo{
+	font-size: 16px;
+}
+
+.flecha{
+	display: none;
+}
+
+
 }
 
 
@@ -724,7 +737,9 @@ body{
  	height: 430px;
  }
 
-
+.texto-largo{
+	font-size: 20px;
+}
 
 
 
