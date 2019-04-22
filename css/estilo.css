@@ -422,8 +422,9 @@ transition:all .6s ;
 
 /*-----------------------------------*/
 
-.espacio-derecha{
-	//padding-right: 10px;
+.video-texto{
+	width: 95%;
+	padding-left: 25px;
 }
 
 /*-------estilos responsivos--------*/
@@ -760,7 +761,7 @@ body{
 }
 
 
-@media (min-width:1280px ) {
+@media (min-width:1280px) {
 	.contenedor{
   	//padding-top: 10px;
   	margin-top: 0px;
@@ -772,8 +773,15 @@ body{
  }
 
 	.header{
-		height: 440px;
+		height: 500px;
 	}
 }
+
+@media (min-width:1500px){
+	.header{
+		height: 600px;
+	}
+}
+
 
 
