@@ -8,16 +8,23 @@
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.css">
+	
 	<link rel="stylesheet" href="css/animate.css">
+ 	<link rel="stylesheet" href="css/jPages.css">
+ 	<link href="css/jquery.bsPhotoGallery-min.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/all.js"></script>
-
-	<link href="css/jquery.bsPhotoGallery-min.css" rel="stylesheet">
-    <script src="js/jquery.bsPhotoGallery-min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>-->
+  <script type="text/javascript" src="js/jPages.js"></script>
+  <script type="text/javascript" src="js/highlight.pack.js"></script>
+  <script type="text/javascript" src="js/tabifier.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+  <script type="text/javascript" src="js/paginar.js"></script>
+  <script src="js/jquery.bsPhotoGallery-min.js"></script>
+	
  
- </script>
-    <script>
+  <script>
       $(document).ready(function(){
         $('ul.first').bsPhotoGallery({
           "classes" : "col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12",
@@ -27,7 +34,9 @@
       });
     </script>
 
+  
 	<link rel="icon" href="imagenes/icono.png">
+
 </head>
 <body>
 			<nav class="navbar navbar-expand-lg ">
@@ -81,8 +90,8 @@
 					<div class="menu">
 						<ul>
 							<a class="sin-subrayado negro" href="ubicacion.html#ubicacion"><li class="menu-item">¿Dónde se ubica?</li></a>
-							<a class="sin-subrayado negro" href="historia.html#historia"><li class="categoria-seleccionada">Una breve Historia...</li></a>
-							<a class="sin-subrayado negro" href="gastronomia.html#gastronomia"><li class="menu-item">Gastronomía</li></a>
+							<a class="sin-subrayado negro" href="historia.html#historia"><li class="menu-item">Una breve Historia...</li></a>
+							<a class="sin-subrayado negro" href="gastronomia.html#gastronomia"><li class="categoria-seleccionada">Gastronomía</li></a>
 							<a class="sin-subrayado negro" href="inundacion.html#inundacion"><li class="menu-item">La tragedia de Tuxtepec</li></a>
 						</ul>
 
@@ -90,53 +99,78 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9" >
-					<a name="historia"><h1 class="titulo"> Una breve historia...</h1></a>
-					<p class="texto-normal">De Tuxtepec</p>
-					<div>
-						<video  preload autoplay loop muted="muted" poster="imagenes/mariposa4.jpg" class="video-texto">
-        				<source src="videos/video_banner_2.mp4"/>
-        				<source src="videos/video_banner_2.webm"/>
-        	Tu navegador no soporta esta extension de video.
-        					</video>
-					</div>
-					<br>
-					<div class=" overflow-auto cuadro-texto"><!-- class:borde1-->
-					<p class="texto-largo animacion ">
-						Las evidencias arqueológicas localizadas en las márgenes del río Tonto, nos permiten suponer que los habitantes más antiguos fueron los Olmecas, los cuales fueron desplazados por los Popolucas. Hacia el 800 de nuestra era, se inició la nahuatización del sureste por lo que muchas poblaciones cambiaron su denominación original siendo sustituidas por topónimos náhuats. <br><br>
-Hay dos versiones sobre la conquista mexica de Tochtepec, la más extendida señala que en el 1456 Moctezuma I, conquistó la Mixteca oaxaqueña y sojuzgó a chinantecos y mazatecos. La segunda versión establece que Netzahualcóyotl pasó su ejército por la costa sujetando a Tochtepec y los pueblos de la cuenca media y baja. <br><br>
-Durante el periodo colonial, las tierras de Tuxtepec quedaron bajo protección de la Corona por lo que no existieron encomiendas, mercedes o cofradías en este lugar. El pueblo se redujo poblacionalmente y fue relocalizado en Cacahuaxuchitlán hacia el año 1600. En 1711, los tuxtepecanos promovieron ante la Corona un juicio para el reconocimiento y delimitación de su fundo legal, pagando 100 pesos en oro por la expedición del título de sus tierras. <br><br>
-Durante la guerra de independencia no existieron en Tuxtepec grandes acciones insurgentes. Al conformarse el estado de Oaxaca en 1823, las tierras tuxtepecanas fueron anexadas al partido de Villa Alta, hasta 1944 cuando fue reconocido como cabecera judicial de la región. En 1876 se lanzó desde este lugar el Plan de Tuxtepec que permitió a Porfirio Díaz llegar al poder. <br><br>
-El movimiento revolucionario fue iniciado en la región por Sebastián Ortiz desde la población de Ojitlán, la revolución afectó mínimamente a las formas de producción regional por lo que se realizaron en aquellos años grandes promociones para cultivar el plátano a través de diversas compañías bananeras que harían surgir el periodo llamado del “oro verde”. Será dentro de este auge bananero cuando Tuxtepec fue elevado a la categoría de ciudad en 1928. Tras la caída del auge bananero se buscaron otras alternativas de producción como la caña, la piña y la ganadería. <br><br>
+					<a name="historia"><h1 class="titulo"> Gastronomía</h1></a>
+					<p class="texto-normal">¿Qué se come en Tuxtepec?</p>
+					<center><small>(De clic sobre alguna de las tres opciones de abajo)</small></center>
+      <br>
+      <center>
+      	
+      <div class="holder">
+        <!-- optional CEO friendly html to be replaced by jPages generated links -->
+        <ul >
+          <li>Vegetación</li>
+          <li>Platillos</li>
+          <li>Variedades</li>
+          
+        </ul>
+      </div>
+  
+</center>
+      <!-- pages -->
+      <div id="pageContainer" class="texto-largo">
+        <!-- About page -->
+        <div data-title="Vegetación">
+         La gastronomía en Tuxtepec,  está íntimamente ligada con la vegetación existente, por lo que puede decirse que hoy la comida típica del municipio, recae en gran medida en el plátano, papaya, piña,  chile, limón, naranja, mango, tomatillo, yuca, maíz, hierbitas de guisar,  mojarra y algunas más. 
+        </div>
+        <!-- Portfolio page -->
+        <div data-title="Platillos">
+          Dentro de los platillos característicos se encuentra toda una cultura alrededor de los tamales, por citar algunas mencionaremos: el tamal de yuca, masa, especias, rajas, rancheritos, bollitos de elote, piña con coco, tamalitos de anís conocidos como "cabecitas de perro" y el tamal de plátano. También puede degustarse de las tortillas raspadas, tortillas de yuca con frijoles refritos, el caldo paisano, además de los caldos de mondongo y de olla, las mojarras fritas con pico de gallo, el pilte de pescado, la bebida refrescante llamada popo.
+        </div>
+        <!-- Contacts page -->
+        <div data-title="Variedades">
+          Existen también otras tantas variedades de platillos típicos de la comida jarocha como las picadas, empanadas, tostadas de jaiba, el famoso "Caldo macho", el "Mogo-mogo" o "Machuco" y las “Tlayudas”, así como de los moles tanto oaxaqueño como veracruzano, los ricos plátanos fritos con queso y mantequilla o crema, así como hervidos como el niño envuelto del pueblo de San Bartolo, sin dejar de mencionar las ricas tortillas hechas a mano por la mujer tuxtepecana y muchos otros platillos, es también de hacer notar que por la descendencia de razas que llegaron a establecerse en Tuxtepec, hoy es una deliciosa costumbre de comida, el cochinito y pollos a la cubana acompañada de unos ricos buñuelos, además de los exquisitos postres como el dulce de mamey, de plátano, guayaba, los nanches curtidos, toritos de cacahuate y guanábana.
+        </div>
+        <!-- Contacts page -->
+       
+      </div>
 
-					</p></div>
-					<!--galeria-->
-					<br>
-					<p class="texto-normal">Galería</p>
-					<ul class="row first">
+	<!--galeria-->
+	<br>
+	<p class="texto-normal">Galería</p>
+	<ul class="row first">
 						<li>
-					<img src="imagenes/ingenio.jpg" alt="ingenio">
-					<p>Ingenio</p>
+					<img src="imagenes/comida1.jpg" alt="Mariposa">
+					
 				</li>
 					<li>
-					<img src="imagenes/cervecera.jpg" alt="cervecera">
-					<p>Cervecera</p>
+					<img src="imagenes/comida2.jpg" alt="Mariposa">
+					
+				</li>
+					<li>
+					<img src="imagenes/comida3.jpg" alt="Pintura">
+					
 				</li>
 				<li>
-					<img src="imagenes/presa.jpg" alt="presa">
-					<p>Presa</p>
+					<img src="imagenes/comida4.jpg" alt="Pintura">
+					
+				</li>
+				<li>
+					<img src="imagenes/comida5.jpg" alt="Pintura">
+					
+				</li>
+					<li>
+					<img src="imagenes/comida6.jpg" alt="Mariposa">
+					
 				</li>
 				</ul>
+					<br>
 				</div>
 				<div class="col-12 col-sm-12 flecha">
-					<a href="historia.html#categoria-indice"><span class="icono"><i class="fas fa-arrow-up"></i></span>Volver al menú</a>
+					<a href="gastronomia.html#categoria-indice"><span class="icono"><i class="fas fa-arrow-up"></i></span>Volver al menú</a>
 				</div>
 
 			</div>
 		</div>
-
-		
-
-
 	</div>
 
 <footer class="pie-sitio">
