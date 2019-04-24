@@ -321,13 +321,14 @@ transition:all .6s ;
 .cuadro-texto{
 	height: 500px;
 	padding-right: 10px;
+
 }
 
 
 .animacion{
-	-moz-animation-duration: 140s;
-	-webkit-animation-duration: 140s;
-	animation-duration: 140s;
+	-moz-animation-duration: 120s;
+	-webkit-animation-duration: 120s;
+	animation-duration: 120s;
   	-moz-animation-name: credito-film;
   	-webkit-animation-name: credito-film;
   	animation-name: credito-film;
@@ -337,16 +338,18 @@ transition:all .6s ;
   	/*-moz-animation-iteration-count: infinite;
   	-webkit-animation-iteration-count: infinite;
   	animation-iteration-count: infinite;*/
-  	-moz-animation-delay:4ms;
-  	-webkit-animation-delay:4ms;
-  	animation-delay:4ms;
-  	//height: 500px;
-  	//padding-top: 100px;
+  	-moz-animation-delay:7s;
+  	-webkit-animation-delay:7s;
+  	animation-delay:7s;
+  	-webkit-animation-timing-function: linear;
+  	-moz-animation-timing-function: linear;
+  	animation-timing-function: linear;
+  	
 }
 
 @keyframes credito-film{
 
-0%{margin-top: 0px;}
+/*0%{margin-top: 0px;}
 5%{margin-top: 0px;}
 10%{margin-top: -50px;}
 15%{margin-top: -100px;}
@@ -366,13 +369,27 @@ transition:all .6s ;
 85%{margin-top: -800px;}
 90%{margin-top: -850px;}
 95%{margin-top: -900px;}
-100%{margin-top: -950px;}
+97%{margin-top: -930px;}
+100%{margin-top: 0px;}*/
+from{
+	margin-top: 0px;
+}
+to{
+	margin-top: -790px;
+}
+
 }
 
 
 @-moz-keyframes credito-film{
 
-0%{margin-top: 0px;}
+from{
+	margin-top: 0px;
+}
+to{
+	margin-top: -790px;
+}
+/*0%{margin-top: 0px;}
 5%{margin-top: 0px;}
 10%{margin-top: -50px;}
 15%{margin-top: -100px;}
@@ -392,12 +409,41 @@ transition:all .6s ;
 85%{margin-top: -800px;}
 90%{margin-top: -850px;}
 95%{margin-top: -900px;}
-100%{margin-top: -950px;}
+100%{margin-top: -950px;}*/
+/*0%{margin-top: 0px;}
+5%{margin-top: 0px;}
+10%{margin-top: -50px;}
+15%{margin-top: -100px;}
+20%{margin-top: -150px;}
+25%{margin-top: -200px;}
+30%{margin-top: -250px;}
+35%{margin-top: -300px;}
+40%{margin-top: -350px;}
+45%{margin-top: -400px;}
+50%{margin-top: -450px;}
+55%{margin-top: -500px;}
+60%{margin-top: -550px;}
+65%{margin-top: -600px;}
+70%{margin-top: -650px;}
+75%{margin-top: -700px;}
+80%{margin-top: -750px;}
+85%{margin-top: -800px;}
+90%{margin-top: -850px;}
+95%{margin-top: -900px;}
+97%{margin-top: -950px;}
+100%{margin-top: 0px;}*/
+
 }
 
 @-webkit-keyframes credito-film{
+	from{
+	margin-top: 0px;
+}
+to{
+	margin-top: -790px;
+}
 
-0%{margin-top: 0px;}
+/*0%{margin-top: 0px;}
 5%{margin-top: 0px;}
 10%{margin-top: -50px;}
 15%{margin-top: -100px;}
@@ -417,7 +463,29 @@ transition:all .6s ;
 85%{margin-top: -800px;}
 90%{margin-top: -850px;}
 95%{margin-top: -900px;}
-100%{margin-top: -950px;}
+100%{margin-top: -950px;}*/
+/*0%{margin-top: 0px;}
+5%{margin-top: 0px;}
+10%{margin-top: -50px;}
+15%{margin-top: -100px;}
+20%{margin-top: -150px;}
+25%{margin-top: -200px;}
+30%{margin-top: -250px;}
+35%{margin-top: -300px;}
+40%{margin-top: -350px;}
+45%{margin-top: -400px;}
+50%{margin-top: -450px;}
+55%{margin-top: -500px;}
+60%{margin-top: -550px;}
+65%{margin-top: -600px;}
+70%{margin-top: -650px;}
+75%{margin-top: -700px;}
+80%{margin-top: -750px;}
+85%{margin-top: -800px;}
+90%{margin-top: -850px;}
+95%{margin-top: -900px;}
+97%{margin-top: -950px;}
+100%{margin-top: 0px;}*/
 }
 
 /*-----------------------------------*/
