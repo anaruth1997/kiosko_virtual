@@ -534,28 +534,33 @@ to{
 
 @keyframes seguido{
 	to{
-	 transform: translate(-19550px,0);
+	 transform: translate(-19500px,0);
 	}
 }
 
 @-webkit-keyframes seguido{
 	to{
-	 transform: translate(-19550px,0);
+	 transform: translate(-19500px,0);
 	}
 }
 
 @-moz-keyframes seguido{
 	to{
-	 transform: translate(-19550px,0);
+	 transform: translate(-19500px,0);
 	}
 }
 
 @-o-keyframes seguido{
 	to{
-	 transform: translate(-19550px,0);
+	 transform: translate(-19500px,0);
 	}
 }
 
+.descripcion-inundacion{
+	height: 500px;
+	padding-right: 25px;
+	margin-top: 30px;
+}
 
 /*------------estilo de div paginacion-----*/
 
