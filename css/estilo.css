@@ -519,8 +519,33 @@ to{
 	background-size: 100% 100%;
 	background-repeat: repeat-x;
 	padding-top: 100px;
+	-webkit-animation: continuo 20s infinite linear;
+	-moz-animation: continuo 20s infinite linear;
+	-o-animation: continuo 20s infinite linear;
+	animation: continuo 20s infinite linear;
 }
 
+@keyframes continuo{
+	to{
+		background-position: 1000px;
+	}
+}
+
+@-webkit-keyframes continuo{
+	to{
+		background-position: 1000px;
+	}
+}
+@-moz-keyframes continuo{
+	to{
+		background-position: 1000px;
+	}
+}
+@-o-keyframes continuo{
+	to{
+		background-position: 1000px;
+	}
+}
 
 .img-cinta-film{
 	width: 1000px; 
