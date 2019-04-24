@@ -380,6 +380,15 @@ to{
 
 }
 
+@keyframes credito-film{
+
+from{
+	margin-top: 0px;
+}
+to{
+	margin-top: -790px;
+}
+}
 
 @-moz-keyframes credito-film{
 
@@ -493,6 +502,58 @@ to{
 .video-texto{
 	width: 95%;
 	padding-left: 25px;
+}
+
+
+.img-cinta{
+	width: 70%;
+
+}
+
+.img-cinta-li{
+	padding-right: 20px;
+}
+
+.fondo-film{
+	background-image: url(../imagenes/fondo-film3.png);
+	background-size: 100% 100%;
+	background-repeat: repeat-x;
+	padding-top: 100px;
+}
+
+
+.img-cinta-film{
+	width: 1000px; 
+	height: 400px;
+	-webkit-animation: seguido 200s infinite linear;
+	-moz-animation: seguido 200s infinite linear;
+	-o-animation: seguido 200s infinite linear;
+	animation: seguido 200s infinite linear;
+
+}
+
+@keyframes seguido{
+	to{
+	 transform: translate(-19550px,0);
+	}
+}
+
+@-webkit-keyframes seguido{
+	to{
+	 transform: translate(-19550px,0);
+	}
+}
+
+@-moz-keyframes seguido{
+	to{
+	 transform: translate(-19550px,0);
+	}
+}
+
+@-o-keyframes seguido{
+	to{
+	 transform: translate(-19550px,0);
+	}
 }
 
 
