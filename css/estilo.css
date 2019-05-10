@@ -497,7 +497,7 @@ to{
 100%{margin-top: 0px;}*/
 }
 
-/*-----------------------------------*/
+/*---------------Cinta de pelicula de inundacion--------------------*/
 
 .video-texto{
 	width: 95%;
@@ -523,6 +523,10 @@ to{
 	-moz-animation: continuo 20s infinite linear;
 	-o-animation: continuo 20s infinite linear;
 	animation: continuo 20s infinite linear;
+	-moz-animation-delay:3s;
+  	-webkit-animation-delay:3s;
+  	-o-animation-delay:3s;
+  	animation-delay:3s;
 }
 
 @keyframes continuo{
@@ -550,10 +554,14 @@ to{
 .img-cinta-film{
 	width: 1000px; 
 	height: 400px;
-	-webkit-animation: seguido 200s infinite linear;
-	-moz-animation: seguido 200s infinite linear;
-	-o-animation: seguido 200s infinite linear;
-	animation: seguido 200s infinite linear;
+	-webkit-animation: seguido 250s infinite linear;
+	-moz-animation: seguido 250s infinite linear;
+	-o-animation: seguido 250s infinite linear;
+	animation: seguido 250s infinite linear;
+	-moz-animation-delay:3s;
+  	-webkit-animation-delay:3s;
+  	-o-animation-delay:3s;
+  	animation-delay:3s;
 
 }
 
@@ -589,12 +597,12 @@ to{
 
 /*------------estilo de div paginacion-----*/
 
-.holder {
+/*.holder {
     margin: 15px 0 30px 0;
   }
 
   .holder a {
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
     margin: 0 25px 0 0;
     color: #000000;
@@ -612,7 +620,7 @@ to{
   .holder a.jp-current:hover {
     cursor: default;
     background: none;
-  }
+  }*/
 
 /*-------estilos responsivos--------*/
 
