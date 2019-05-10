@@ -717,6 +717,14 @@ margin-top: 20px;
 	padding-top: 10px;
 }
 
+.imgpcabecera{
+	width: 30%; 
+	margin-top: 20px; 
+	//margin-left: 15px; 
+	border-radius: 100%;
+}
+
+
 }
 
 
@@ -839,6 +847,13 @@ width: 100%;
 
 .flecha{
 	display: none;
+}
+
+.imgpcabecera{
+	width: 100%; 
+	margin-top: 50px; 
+	margin-left: 15px; 
+	border-radius: 100%;
 }
 
 
