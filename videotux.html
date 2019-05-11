@@ -12,6 +12,21 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/all.js"></script>
+
+	<link href="css/jquery.bsPhotoGallery-min.css" rel="stylesheet">
+    <script src="js/jquery.bsPhotoGallery-min.js"></script>
+ 
+ </script>
+    <script>
+      $(document).ready(function(){
+        $('ul.first').bsPhotoGallery({
+          "classes" : "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12",
+          "hasModal" : true,
+          "shortText" : false  
+        });
+      });
+    </script>
+
 	<link rel="icon" href="imagenes/icono.png">
 </head>
 <body>
@@ -57,79 +72,46 @@
         
       </div>
 	</header>
-	<div class="contenedor ">
-		<div class="container "> <!--class:container-->
+
+	<div class="contenedor">
+		<!--<div class="container">-->
 			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<h1 class="titulo"> Conozca Tuxtepec </h1>
-					<p class="texto-normal">De clic sobre la categoría que quiera visitar.</p>
+				<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"><br>
+					<a name="categoria-indice"><p class="texto-normal">Categorías del índice</p></a>
+					<div class="menu">
+						<ul>
+							<a class="sin-subrayado negro" href="ubicacion.html#ubicacion"><li class="menu-item">¿Dónde se ubica?</li></a>
+							<a class="sin-subrayado negro" href="historia.html#historia"><li class="menu-item">Breve Historia de Tuxtepec</li></a>
+							<a class="sin-subrayado negro" href="gastronomia.html#gastronomia"><li class="menu-item">Gastronomía</li></a>
+							<a class="sin-subrayado negro" href="inundacion.html#inundacion"><li class="menu-item">La tragedia de Tuxtepec</li></a>
+							<a class="sin-subrayado negro" href="videotux.html#videotux"><li class="categoria-seleccionada">Video de Tuxtepec</li></a>
+						</ul>
+
+
+					</div>
 				</div>
+				<!--<div class="container">-->
+				
+				<div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 animated fadeIn">
+					<a name="videotux"><h1 class="titulo"> Video de Tuxtepec</h1></a>
+					<p class="texto-normal">Conoce Tuxtepec a travéz de esta narración</p>
+					<br>
+					<div class=""><!-- class:borde1-->
+					
+
+
+				
+				</div>
+				
+				<div class="col-12 col-sm-12 flecha">
+					<a href="videotux.html#categoria-indice"><span class="icono"><i class="fas fa-arrow-up"></i></span>Volver al menú</a>
+				</div>
+			
+			<!--</div>-->
 			</div>
-		</div>
+		<!--</div>-->
 
-		<div class="container imagenes ">
-			<div class="row  ">
-				<div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<a class=" seleccion" href="ubicacion.html#ubicacion">
-					<div class="marco ">
-					<img class="imagen img-thumbnail" src="imagenes/pintura2.jpg" alt="Ubicación">
-				
-				</div>
-				<div>
-					<p class="titulo-entradas">¿Dónde se ubica?</p>
-				</div>
-				</a>
-				</div>
-
-				<div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<a class=" seleccion" href="historia.html#historia">
-					<div class="marco ">
-					<img class="imagen img-thumbnail" src="imagenes/ingenio.jpg" alt="Breve Historia de Tuxtepec">
-				
-				</div>
-				<div>
-					<p class="titulo-entradas">Breve Historia de Tuxtepec</p>
-				</div>
-				</a>
-				</div>
-
-				<div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<a class=" seleccion" href="gastronomia.html#gastronomia">
-					<div class="marco ">
-					<img class="imagen img-thumbnail" src="imagenes/comida5.jpg" alt="Comidas tipicas">
-				
-				</div>
-				<div>
-					<p class="titulo-entradas">Gastronomía</p>
-				</div>
-				</a>
-				</div>
-
-				<div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<a class=" seleccion" href="inundacion.html#inundacion">
-					<div class="marco ">
-					<img class="imagen img-thumbnail" src="imagenes/inundacion.jpg" alt="Inundación">
-				
-				</div>
-				<div>
-					<p class="titulo-entradas">La tragedia de Tuxtepec</p>
-				</div>
-				</a>
-				</div>
-				
-				<div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<a class=" seleccion" href="videotux.html#videotux">
-					<div class="marco ">
-					<img class="imagen img-thumbnail" src="imagenes/videotux.jpg" alt="Video de Tuxtepec">
-				
-				</div>
-				<div>
-					<p class="titulo-entradas">Video de Tuxtepec</p>
-				</div>
-				</a>
-				</div>
-			</div>
-		</div>
+		
 
 
 	</div>
