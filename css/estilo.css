@@ -600,6 +600,59 @@ to{
 	width: 95%;
 	margin-bottom: 20px;
 }
+
+/*------ahora animación vertical------------*/
+
+.verticalimg{
+	width: 100%;
+}
+
+.img-vertical{
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.img-cinta-vertical{
+	//width: 1000px; 
+	height: 1000px;
+	-webkit-animation: arribita 100s infinite linear;
+	-moz-animation: arribita 100s infinite linear;
+	-o-animation: arribita 100s infinite linear;
+	animation: arribita 100s infinite linear;
+	-moz-animation-delay:5s;
+  	-webkit-animation-delay:5s;
+  	-o-animation-delay:5s;
+  	animation-delay:5s;
+
+
+}
+
+@keyframes arribita{
+	to{
+	 transform: translate(0,-1000px);
+	}
+}
+
+
+@-webkit-keyframes arribita{
+	to{
+	 transform: translate(0,-1000px);
+	}
+}
+
+@-moz-keyframes arribita{
+	to{
+	 transform: translate(0,-1000px);
+	}
+}
+
+@-o-keyframes arribita{
+	to{
+	 transform: translate(0,-1000px);
+	}
+}
+
 /*------------estilo de div paginacion-----*/
 
 /*.holder {
