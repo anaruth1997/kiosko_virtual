@@ -241,8 +241,10 @@ color: #D84B20;
 
 
 .img-pie-sitio{
-	padding-top: 20px;
-	width: 90%;
+	//margin-top: 20px;
+	//padding-top: 20px;
+	//width: 100%;
+	vertical-align: middle;
 }
 
 
@@ -783,6 +785,13 @@ margin-top: 20px;
 }
 
 
+.img-pie-sitio{
+	margin-top: 0px;
+	padding-top: 20px;
+	width: 100%;
+	vertical-align: middle;
+}
+
 }
 
 
@@ -915,6 +924,8 @@ width: 100%;
 }
 
 
+
+
 }
 
 
@@ -993,6 +1004,14 @@ body{
  	font-size: 31px;
  }
 
+.img-pie-sitio{
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 150px;
+	height: 60px;
+	vertical-align: middle;
+}
+
 }
 
 
@@ -1024,7 +1043,13 @@ body{
 	font-size: 20px;
 }
 
-
+.img-pie-sitio{
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 270px;
+	height: 86px;
+	vertical-align: middle;
+}
 
 }
 
